@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medical Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="data.css">
+</head>
+<body>
+    <div class="form-container">
+        <div class="form-icon">
+            <i class="fas fa-user-md"></i>
+        </div>
+        <form>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="number" id="age" name="age" placeholder="Enter your age" required>
+            </div>
+
+            <div class="form-group symptoms">
+                <label>Symptoms</label>
+                <div class="checkbox-group">
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="polyuria"><span>Polyuria</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="polydipsia"><span>Polydipsia</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="weight_loss"><span>Sudden Weight Loss</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="weakness"><span>Weakness</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="polyphagia"><span>Polyphagia</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="genital_thrush"><span>Genital Thrush</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="visual_blurring"><span>Visual Blurring</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="itching"><span>Itching</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="irritability"><span>Irritability</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="delayed_healing"><span>Delayed Healing</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="partial_paresis"><span>Partial Paresis</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="muscle_stiffness"><span>Muscle Stiffness</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="Alopecia"><span>Alopecia</span></div>
+                    <div class="checkbox-item"><input type="checkbox" name="symptom" value="obesity"><span>obesity</span></div>     
+                </div>
+            </div>
+
+            <button type="submit" class="submit-btn">
+                <i class="fas fa-paper-plane"></i> Submit
+            </button>
+        </form>
+    </div>
+    
+</body>
+</html>
